@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import HeroBanner from '@/components/HeroBanner'
 import HowItWorks from '@/components/HowItWorks'
@@ -13,7 +14,6 @@ export default function Home() {
   return (
     <main>
       <HeroBanner/>
-      <Brands/>
       <HowItWorks/>
       <SecondaryCTA/>
       <FAQ/>
